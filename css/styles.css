@@ -1,4 +1,6 @@
 :root {
+    --primary-font: "Open Sans", sans-serif;
+    --primary-font-size: 18px;
     
 }
 
@@ -36,6 +38,11 @@ button {
     cursor: pointer;
 }
 
+body {
+    font-family: var(--primary-font);
+    font-size: var(--primary-font-size);
+}
+
 /* COMPONENTS */
 
 .container {
@@ -44,6 +51,14 @@ button {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.modal-btn {
+    width: 160px;
+    height: 40px;
+    border: 1px solid #FF6C00;
+    background-color: transparent;
+    border-radius: 25px;
 }
 
 /* /COMPONENTS */
@@ -79,8 +94,9 @@ button {
 }
 
 
-
-.modal-btn {}
+.header-btn {
+    margin-left: 43px;
+}
 
 /* /HEADER */
 
