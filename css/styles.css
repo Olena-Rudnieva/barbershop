@@ -59,6 +59,14 @@ body {
     border: 1px solid #FF6C00;
     background-color: transparent;
     border-radius: 25px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    padding: 12 20;
+
+    /* color: #FFFFFF; */
 }
 
 /* /COMPONENTS */
@@ -67,10 +75,12 @@ body {
 
 .page-header-flex {
     display: flex;
+    align-items: center;
 }
 
 .page-nav {
     display: flex;
+    align-items: center;
 }
 
 .logo-link { 
@@ -79,18 +89,36 @@ body {
 
 .header-list {
     display: flex;
+    align-items: center;
     gap: 30px;
 }
 
-.header-list-item {}
+.header-list-item {
+
+}
 
 .header-list-link {
-    
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    /* color: #FFFFFF;
+     */
 }
 
 .header-contacts {
     display: flex;
+    align-items: center;
     margin-left: auto;    
+}
+
+.phone {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    /* color: #FFFFFF; */
 }
 
 
