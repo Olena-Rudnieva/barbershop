@@ -98,11 +98,29 @@ body {
     margin-right: 20px;
 }
 
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+    color: #303030;
+    margin-bottom: 20px;
+}
+
 .description {    
     font-size: 18px;
     line-height: 1.67;   
     letter-spacing: 0.02em;
     color: #9DA4BD;
+}
+
+.small-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: 0.02em;
+    color: #555555;
 }
 
 /* /COMPONENTS */
@@ -166,6 +184,7 @@ body {
 
 .header-btn {
     margin-left: 43px;
+    margin-right: 17px;
 }
 
 /* /HEADER */
@@ -213,7 +232,7 @@ body {
     color: rgba(157, 164, 189, 0.6);
 }
 
-.title {
+.hero-title {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 72px;
@@ -231,9 +250,42 @@ body {
 
 /* /HERO */
 
-/* .about {}
+/* ABOUT */
 
-.prices {}
+
+.about {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.about-flex {
+    display: flex;
+}
+
+.about-information {
+    width: 470px;
+}
+
+.about-list {
+    display: flex;
+    
+}
+
+.about-list-item {
+    margin-right: 30px;
+}
+
+.about-description {
+    margin-bottom: 20px;
+    color: #555555;
+}
+
+.description.small-text {
+    margin-bottom: 42px;
+}
+/* /ABOUT */
+
+/* .prices {}
 
 .features {}
 
@@ -241,4 +293,4 @@ body {
 
 .gallery {}
 
-.contacts {} */
+.contacts {} */ 
