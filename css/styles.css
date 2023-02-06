@@ -106,6 +106,7 @@ body {
     letter-spacing: 0.05em;
     color: #303030;
     margin-bottom: 20px;
+    
 }
 
 .description {    
@@ -309,12 +310,51 @@ body {
 
 /* /PRICES */
 
+/* FEATURES */
+
+.features {
+    padding-top: 115px;
+    padding-bottom: 125px;
+}
+
+.features-flex {
+    display: flex;
+    gap: 130px;
+    padding-left: 70px;
+}
+
+.number {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #303030;
+}
+
+.number-description {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-align: center;
+    color: #303030;
+} 
+
+.features-title {
+    width: 430px;
+}
+
+.features-description {
+    width: 500px;
+}
+
+/* /FEATURES */
 
 
-/* .features {}
 
-.our-barbers {}
+
+/* .our-barbers {}
 
 .gallery {}
 
-.contacts {} */ 
+.contacts {} */  
