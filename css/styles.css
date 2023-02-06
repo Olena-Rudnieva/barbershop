@@ -285,7 +285,20 @@ body {
 }
 /* /ABOUT */
 
-/* .prices {}
+/* PRICES */
+
+.prices {
+    display: flex;
+    font-size: 18px;
+    line-height: 1.67;  
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+
+
+/* /PRICES */
+
+
 
 .features {}
 
