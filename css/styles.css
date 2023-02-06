@@ -287,12 +287,23 @@ body {
 
 /* PRICES */
 
+.services-prices {
+    padding-top: 110px;
+    padding-bottom: 130px;
+    background-image: url(../images/prices.jpg);
+    
+
+}
+
 .prices {
     display: flex;
     font-size: 18px;
     line-height: 1.67;  
     letter-spacing: 0.02em;
     color: #9DA4BD;
+    gap: 30px;
+    
+    
 }
 
 
@@ -300,7 +311,7 @@ body {
 
 
 
-.features {}
+/* .features {}
 
 .our-barbers {}
 
