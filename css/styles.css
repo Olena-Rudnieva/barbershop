@@ -44,6 +44,10 @@ button {
     cursor: pointer;
 }
 
+address {
+    font-style: normal;
+}
+
 body {
     font-family: var(--primary-font);
     font-size: var(--primary-font-size);
@@ -354,8 +358,40 @@ body {
 
 .our-barbers {
     padding-top: 120px;
-    padding-right: 120px;
+    padding-bottom: 120px;
     background-color: #F7F7F7;
+}
+
+.our-barbers-title {
+    margin-bottom: 44px;
+}
+
+.our-barbers-list {
+    display: flex;
+    gap: 30px;
+}
+
+.name {   
+    font-size: 18px;
+    line-height: 1.39;           
+    text-align: center;
+    letter-spacing: 0.02em;    
+    color: #303030;
+    margin-top: 30px;
+}
+
+.profi {
+
+    font-size: 14px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FF6C00;
+    margin-top: 8px;
+}
+
+.social-list-icon {
+    fill: #303030;
 }
 
 /* /OUR-BARBERS */
@@ -391,6 +427,37 @@ body {
 }
 
 /* /Gallery */
+
+/* Contacts */
+
+.contacts {
+    padding-top: 130px;
+    padding-bottom: 120px;
+}
+
+/* /Contacts */
+
+/* Footer */
+
+.footer {
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {    
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36px;   
+    letter-spacing: 0.2em;
+    color: #9DA4BD;
+}
+
+/* /Footer */
 
 
 
