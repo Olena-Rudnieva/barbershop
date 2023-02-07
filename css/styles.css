@@ -293,13 +293,18 @@ body {
 
 /* PRICES */
 
-
-
 .services-prices {
     padding-top: 110px;
     padding-bottom: 130px;
     background-image: url(../images/prices.png);
-    background-color: #111319;         
+    background-color: #111319; 
+    background-size: cover;      
+}
+
+.services-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .prices {
@@ -311,6 +316,17 @@ body {
     gap: 30px; 
     justify-content: space-between;      
 }
+
+.services-uppertitle {
+    color: rgba(157, 164, 189, 0.6);
+}
+
+.services-title {
+    color: #FFFFFF;
+    margin-bottom: 44px;
+}
+
+
 
 .left-side {
     width: 570px;
@@ -324,8 +340,22 @@ body {
     height: 240px;
     padding: 30px 22px 28px 20px;
     background: linear-gradient(180deg, #090B13 0%, rgba(9, 11, 19, 0.2) 100%);
+    border-spacing: 0px;    
 }
 
+
+/* .main-cell {
+    width: 100%;
+} */
+
+/* .price-cell {
+    width: 100%;
+} */
+ 
+.services-button {
+    color: #FFFFFF;
+    margin-top: 56px;
+}
 
 
 
