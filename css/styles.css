@@ -451,6 +451,12 @@ body {
     
 }
 
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .social-list-icon {
     fill: #303030;
 }
