@@ -437,6 +437,20 @@ body {
     margin-top: 8px;
 }
 
+.social-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-list-item {
+    width: 44px;
+    height: 44px;
+    background-color: #fff;
+    border-radius: 50%;
+    
+}
+
 .social-list-icon {
     fill: #303030;
 }
