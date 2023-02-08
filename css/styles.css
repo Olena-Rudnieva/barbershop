@@ -509,9 +509,47 @@ body {
     background-color: #191C26;
 }
 
-.contacts-image {
-    background-image: url(../images/bg-contacts.png);
+.contacts-flex {
+    display: flex;
 }
+
+.left-side-booking {
+    width: (50% + 15px);
+}
+
+.right-side-contacts {
+    background-image: url(../images/bg-contacts.png);
+    width: (50%-15px);
+    
+}
+
+.contacts-title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.booking-form-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(157, 164, 189, 0.4);
+}
+
+.contacts-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+
+}
+
+
 /* /Contacts */
 
 /* Footer */
