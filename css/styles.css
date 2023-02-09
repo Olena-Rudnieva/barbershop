@@ -76,13 +76,16 @@ body {
     letter-spacing: 0.09em;
     text-transform: uppercase;
     padding: 12 20;
-
-    /* color: #FFFFFF; */
+    color: #303030;
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
     background-color: var(--accent-color);
+}
+
+.modal-btn-theme-dark {
+    color: #FFFFFF;
 }
 
 .uppertitle {
@@ -136,6 +139,8 @@ body {
 .header {
     padding-top: 32px;
     padding-bottom: 32px;
+    position: absolute;
+    width: 100%;
 }
 
 .page-header-flex {
@@ -163,8 +168,7 @@ body {
     font-size: 12px;
     line-height: 1.33;
     letter-spacing: 0.1em;
-    /* color: #FFFFFF;
-     */
+    color: #FFFFFF;    
 }
 
 .header-list-link:hover,
@@ -184,7 +188,7 @@ body {
     line-height: 16px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    /* color: #FFFFFF; */
+    color: #FFFFFF;
 }
 
 
