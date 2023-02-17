@@ -361,17 +361,15 @@ body {
 .row {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
 }
 
 .row:not(:last-child) {
     margin-bottom: 20px;
 }
 
-.type-of-service {
-    flex-grow: 1;
-}
 
-.type-of-service::after {
+.row::before {
     content: "";
     background-color: #9DA4BD;
     height: 1px;
@@ -379,8 +377,11 @@ body {
     display: inline-block;
     margin-left: 12px;
     margin-right: 12px;
-    flex-grow: 2;
+    flex-grow: 1;
+}
 
+.type-of-service {
+    order: -1;
 }
 
 
