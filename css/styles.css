@@ -219,11 +219,28 @@ body {
 
 .hero-left-side {
     width: 100px;
+    display: flex;
+    align-items: flex-end;
 }
 
 .hero-list {
     display: flex;
     gap: 40px;
+    transform: rotate(-90deg) translateY(100%);
+    transform-origin: bottom left;
+    padding-left: 27px;
+    padding-bottom: 40px;
+    align-items: center;
+   
+
+}
+
+.hero-list::before {
+    content: "";
+    width: 60px;
+    height: 1px;
+    background-color: #303030;
+
 
 }
 
@@ -345,7 +362,6 @@ body {
 
 .left-side {
     width: 570px;
-
     background: linear-gradient(180deg, #171A24 0%, rgba(23, 26, 36, 0.2) 100%);
     padding: 30px 20px;
     
