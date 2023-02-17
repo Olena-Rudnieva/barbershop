@@ -345,28 +345,39 @@ body {
 
 .left-side {
     width: 570px;
+
     background: linear-gradient(180deg, #171A24 0%, rgba(23, 26, 36, 0.2) 100%);
+    padding: 30px 20px;
+    
+}
+
+.right-side {
+    width: 570px;    
+    padding: 30px 20px;
+    background: linear-gradient(180deg, #090B13 0%, rgba(9, 11, 19, 0.2) 100%);
+        
+}
+
+.row {
     display: flex;
     justify-content: space-between;
-
-}
-.right-side {
-    width: 570px;
-    height: 240px;
-    padding: 30px 22px 28px 20px;
-    background: linear-gradient(180deg, #090B13 0%, rgba(9, 11, 19, 0.2) 100%);
-    border-spacing: 0px;    
 }
 
+.row:not(:last-child) {
+    margin-bottom: 20px;
+}
 
-/* .main-cell {
-    width: 100%;
-} */
+.type-of-service::after {
+    
+    display: inline-block;
+   /*  width: 10px;
+    height: 1px; */
+    color: #9DA4BD;
 
-/* .price-cell {
-    width: 100%;
-} */
- 
+}
+
+
+
 .services-button {
     color: #FFFFFF;
     margin-top: 56px;
@@ -472,15 +483,17 @@ body {
     align-items: center;
     width: 100%;
     height: 100%;  
-    transition: fill 250ms linear;  
+    color: #303030;
+    transition: color 250ms linear;  
 }
 
-.social-link:is(:hover, :focus) .social-list-icon {
-    fill: var(--accent-color);
+.social-link:hover,
+.social-link:focus {
+    color: #FF6C00;
 }
 
 .social-list-icon {
-    fill: #303030;
+    fill: currentColor;
 }
 
 /* /OUR-BARBERS */
