@@ -367,12 +367,19 @@ body {
     margin-bottom: 20px;
 }
 
+.type-of-service {
+    flex-grow: 1;
+}
+
 .type-of-service::after {
-    
+    content: "";
+    background-color: #9DA4BD;
+    height: 1px;
+    width: 100px;
     display: inline-block;
-   /*  width: 10px;
-    height: 1px; */
-    color: #9DA4BD;
+    margin-left: 12px;
+    margin-right: 12px;
+    flex-grow: 2;
 
 }
 
