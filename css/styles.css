@@ -612,30 +612,47 @@ body {
     margin-bottom: 40px;
 }
 
+.contacts-list {
+    margin-bottom: 70px;
+}
+
+.contacts-list-item:not(:last-child) {
+    margin-bottom: 20px;
+}
 
 .contacts-text {
     font-weight: 400;
     font-size: 18px;
     line-height: 1.67;
     letter-spacing: 0.02em;
-    color: #9DA4BD;
-    margin-bottom: 20px;
+    color: #9DA4BD;    
 }
 
 .location {
+    display: block;
     font-weight: 700;
     width: 190px;
 }
 
-.mail {
-    margin-bottom: 70px;
+.contacts-icon {
+    display: block;
+    margin-right: 16px;
+    s
 }
+
+
 
 .uppertitle-dark {
     color: #FFFFFF;
 }
 
-
+.working-hours {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
 
 /* /Contacts */
 
