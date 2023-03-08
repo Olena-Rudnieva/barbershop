@@ -560,6 +560,12 @@ body {
     padding-top: 130px;
     padding-bottom: 120px;
     background-color: #191C26;
+    background-image: url(../images/bg-contacts.png);
+    background-repeat: no-repeat;
+        background-position: right;
+        background-size: calc(50% - 15px) 100%;
+    
+    
 }
 
 .contacts-flex {
@@ -567,21 +573,19 @@ body {
 }
 
 .left-side-booking {
-    width: (50% + 15px);
+    width: calc(50% + 15px);
+    padding-right: 30px;
 }
 
-.right-side-contacts {
-    background-image: url(../images/bg-contacts.png);
-    width: (50%-15px);
-    
-}
 
-.contacts-title {
+
+.online-title {
     font-weight: 700;
     font-size: 42px;
     line-height: 1.17;
     letter-spacing: 0.05em;
     color: #FFFFFF;
+    margin-bottom: 44px;
 }
 
 .booking-form-text {
@@ -593,14 +597,44 @@ body {
     color: rgba(157, 164, 189, 0.4);
 }
 
+.right-side-contacts {
+    width: (50%-15px);
+    padding-left: 100px; 
+           
+}
+
+.contacts-title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+
 .contacts-text {
     font-weight: 400;
     font-size: 18px;
     line-height: 1.67;
     letter-spacing: 0.02em;
     color: #9DA4BD;
-
+    margin-bottom: 20px;
 }
+
+.location {
+    font-weight: 700;
+    width: 190px;
+}
+
+.mail {
+    margin-bottom: 70px;
+}
+
+.uppertitle-dark {
+    color: #FFFFFF;
+}
+
 
 
 /* /Contacts */
