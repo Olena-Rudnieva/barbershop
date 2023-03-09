@@ -577,8 +577,6 @@ body {
     padding-right: 30px;
 }
 
-
-
 .online-title {
     font-weight: 700;
     font-size: 42px;
@@ -588,7 +586,23 @@ body {
     margin-bottom: 44px;
 }
 
-.booking-form-text {
+/* .online-form {} */
+
+.online-field {
+    position: relative;
+}
+
+.online-input {
+    width: 270px;
+    height: 24px;
+    border: none;
+    border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+    background-color: transparent;
+}
+
+.online-label {
+    position: absolute;
+    left: 0;
     font-weight: 600;
     font-size: 11px;
     line-height: 1.36;
@@ -596,6 +610,16 @@ body {
     text-transform: uppercase;
     color: rgba(157, 164, 189, 0.4);
 }
+
+/* .online-tel {}
+
+.online-textarea {}
+
+.modal-btn {}
+
+.modal-btn-theme-dark {} */
+
+
 
 .right-side-contacts {
     width: calc(50% - 15px);
