@@ -628,26 +628,41 @@ body {
     color: #9DA4BD;    
 }
 
-
-
-
-
 .contacts-text {
     display: flex;
-    align-items: center;
+    align-items: start;
     gap: 16px;
 }
 
-.location {
-    font-weight: 700;  
+.contacts-text::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    
+    background-position: center;
+    
+}
+
+.contact-location {
+    font-weight: 700;        
+}
+
+.contact-location::before {
+    content: "";
+    background-image: url(../images/map-pin.svg);
+}
+
+.contact-phone::before {
+    content: "";
+    background-image: url(../images/phone.svg);
+}
+
+.contact-mail::before {
+    content: "";
+    background-image: url(../images/mail.svg);
 }
 
 
-
-.contacts-icon {
-    display: block;
-    margin-right: 16px;    
-}
 
 
 
