@@ -628,24 +628,21 @@ body {
     color: #9DA4BD;    
 }
 
-.contacts-text {
+.contacts-list-item {
     display: flex;
     align-items: start;
     gap: 16px;
 }
 
-.contacts-text::before {
+.contacts-list-item::before {
     content: "";
     width: 24px;
-    height: 24px;
-    
+    height: 24px;    
     background-position: center;
     
 }
 
-.contact-location {
-    font-weight: 700;        
-}
+
 
 .contact-location::before {
     content: "";
@@ -662,6 +659,10 @@ body {
     background-image: url(../images/mail.svg);
 }
 
+.contacts-text-location {
+    font-weight: 700;
+    width: 200px;
+}
 
 
 
