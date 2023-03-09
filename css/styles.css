@@ -628,16 +628,25 @@ body {
     color: #9DA4BD;    
 }
 
-.location {
-    display: block;
-    font-weight: 700;
-    width: 190px;
+
+
+
+
+.contacts-text {
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
+
+.location {
+    font-weight: 700;  
+}
+
+
 
 .contacts-icon {
     display: block;
-    margin-right: 16px;
-    s
+    margin-right: 16px;    
 }
 
 
