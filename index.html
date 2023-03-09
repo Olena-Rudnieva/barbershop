@@ -375,13 +375,17 @@
                 <h3 class="online-title">Online-booking</h3>
                 <form class="online-form">
                     <div class="online-field">
-                        <input type="text">
+                        <input type="text" name="online-name" class="online-input" required>
+                        <label class="online-label" for="online-name">Name*</label>
                     </div>
+                    <div class="online-field">
+                        <input class="online-tel" name="online-tel" type="tel" required>
+                        <label class="online-label" for="online-tel">Phone*</label>
+                    </div>
+                    <textarea name="online-message" id="online-message" class="online-textarea">Message</textarea>
+                    <label class="online-label" for="online-message"></label>
                 </form>
-                <p class="booking-form-text">Name*</p>
-                <p class="booking-form-text">Phone*</p>
-                <p class="booking-form-text">Message</p>
-                <button type="button" class="modal-btn modal-btn-theme-dark">send</button>
+                <button type="submit" class="modal-btn modal-btn-theme-dark">send</button>
             </div>
             
             <div class="right-side-contacts">                
