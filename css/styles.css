@@ -602,10 +602,12 @@ body {
     border: none;
     border-bottom: 1px solid rgba(157, 164, 189, 0.4);
     background-color: transparent;
+    outline: transparent;
 }
 
 .online-label {
     position: absolute;
+    top: 0;
     left: 0;
     font-weight: 600;
     font-size: 11px;
@@ -623,6 +625,10 @@ body {
     width: 100%;
     height: 76px;
     resize: none;
+}
+
+.online-input + .online-label:focus{
+    transform: translateY(-100%);
 }
 
 .right-side-contacts {
