@@ -57,18 +57,17 @@ body {
 /* COMPONENTS */
 
 .container {
-    max-width: 480px;
+    max-width: 448x;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 31px;
-    padding-right: 31px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 @media screen and (min-windth: 768px) {
     .container {
         max-width: 768px;
-        padding-left: 39px;
-        padding-right: 39px;
+        
     }
     
 }
@@ -76,8 +75,6 @@ body {
 @media screen and (min-width: 1200px) {
     .container {
         max-width: 1200px;
-        padding-left: 15px;
-        padding-right: 15px;
         }
     
 }
