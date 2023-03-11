@@ -564,9 +564,14 @@ body {
 /* Gallery */
 
 .gallery {
+    padding-top: 84px;
+    padding-bottom: 84px;
+}
+
+/* .gallery {
     padding-top: 120px;
     padding-bottom: 120px;
-}
+} */
 
 .visually-hidden {
     position: absolute;
