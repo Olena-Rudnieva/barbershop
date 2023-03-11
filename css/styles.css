@@ -593,6 +593,7 @@ body {
 .online-field {
     position: relative;
     margin-bottom: 44px;
+    
 }
 
 
@@ -603,6 +604,8 @@ body {
     border-bottom: 1px solid rgba(157, 164, 189, 0.4);
     background-color: transparent;
     outline: transparent;
+    color: #FFFFFF;
+    transition: border-color 250ms linear; 
 }
 
 .online-label {
@@ -615,6 +618,7 @@ body {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: rgba(157, 164, 189, 0.4);
+    transition: transform 250ms linear;
 }
 
 .online-field-item {
@@ -627,9 +631,20 @@ body {
     resize: none;
 }
 
-.online-input + .online-label:focus{
-    transform: translateY(-100%);
+.online-input:focus {
+    border-color: #FFFFFF;
 }
+
+.online-input:focus + .online-label {
+    transform: translateY(-100%);
+    color: #9DA4BD;
+}
+
+.online-input:not(:placeholder-shown)+.online-label {
+    transform: translateY(-100%);
+    color: #9DA4BD;
+}
+
 
 .right-side-contacts {
     width: calc(50% - 15px);
