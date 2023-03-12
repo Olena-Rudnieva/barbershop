@@ -162,6 +162,28 @@ body {
 
 /* HEADER */
 
+@media screen and (max-width: 1199px) {
+    .phone {
+            display: none;
+        }
+}
+
+@media screen and (max-width: 767px) {
+    .header-list {
+            display: none;
+    }
+
+    .header-btn {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
 /* .header {
     padding-top: 32px;
     padding-bottom: 32px;

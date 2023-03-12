@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbershop</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet">
 </head>
 <body>
 
@@ -18,48 +18,51 @@
     <header class="header">           
         <div class="container page-header-flex">
             <nav class="page-nav">
-                <a href="./index.html" class="logo-link link">
+                <a class="logo-link link" href="./index.html">
                             <img src="./images/logo.svg" alt="Логотип">
                         </a>   
     
-                    <ul class="header-list list">           
+                    <ul class="header-list list">         
                                                
                         <li>
-                            <a href="" class="header-list-link link">
+                            <a class="header-list-link link" href>
                                 About
                             </a>
                         </li>
                         <li>
-                            <a href="" class="header-list-link link">
+                            <a class="header-list-link link" href>
                                 Services and prices
                             </a>
                         </li>
                         <li>
-                            <a href="" class="header-list-link link">
+                            <a class="header-list-link link" href>
                                 Barbers
                             </a>
                         </li>
                         <li>
-                            <a href="" class="header-list-link link">
+                            <a class="header-list-link link" href>
                                 Contacts
                             </a>
                         </li>
                     </ul>
             </nav> 
+
+            <button type="button" class="mobile-menu-open">
+                <svg class="mobile-menu-open-icon" width="40" height="40">
+                    <use href="./images/sprite.svg#icon-burger"></use>
+                </svg>
+
+            </button>
         
 
-            <ul class="header-contacts list">
-                <li>
-                    <a href="tel:+380441111111" class="phone link">
-                        +38 044 111 11 11
-                    </a>
-                </li>
-                <li>
-                    <button type="button" class="modal-btn header-btn modal-btn-theme-dark">
-                        Online-booking
-                    </button>
-                </li>
-            </ul>
+            <a class="phone link" href="tel:+380441111111">
+                +38 044 111 11 11
+            </a>
+                
+            <button class="modal-btn header-btn modal-btn-theme-dark" type="button">
+                Online-booking
+            </button>             
+           
         </div> 
     </header>
 
