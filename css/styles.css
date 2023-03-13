@@ -524,24 +524,30 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 
 /* ABOUT */
 
+@media screen and (max-width: 767px) {
+    .about-list {
+        display: none;
+    }   
+}
+
 
 .about {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 84px;
+    padding-bottom: 84px;
 }
 
 .about-flex {
     display: flex;
 }
 
-.about-information {
+/* .about-information {
     width: 470px;
-}
+} */
 
-.about-list {
+/* .about-list {
     display: flex;
     
-}
+} */
 
 .about-list-item {
     margin-right: 30px;
@@ -642,6 +648,10 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 }
 
 
+/* .about {
+    padding-top: 120px;
+    padding-bottom: 120px;
+} */
 
 /* /PRICES */
 
