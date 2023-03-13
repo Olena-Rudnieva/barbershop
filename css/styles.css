@@ -626,6 +626,66 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     background-size: cover;      
 }
 
+.services-flex {
+    text-align: center;
+}
+
+.services-uppertitle {
+    color: rgba(157, 164, 189, 0.6);
+}
+
+.services-title {
+    color: #FFFFFF;
+    margin-bottom: 44px;
+    font-size: 40px;
+}
+
+.prices {
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+    background: linear-gradient(180deg, #171A24 0%, rgba(23, 26, 36, 0.2) 100%);
+    padding: 30px 20px 30px 40px;
+        
+}
+
+.left-side {
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+
+.row:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.row::before {
+    content: "";
+    background-color: rgba(157, 164, 189, 0.12);
+    height: 1px;
+    /* width: 100px; */
+    display: inline-block;
+    margin-left: 12px;
+    margin-right: 12px;
+    flex-grow: 1;
+}
+
+.type-of-service {
+    order: -1;
+}
+
+.services-button {
+    color: #FFFFFF;
+    margin-top: 44px;
+
+}
+
 /* .services-prices {
     padding-top: 110px;
     padding-bottom: 130px;
@@ -650,14 +710,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     justify-content: space-between;      
 } */
 
-.services-uppertitle {
-    color: rgba(157, 164, 189, 0.6);
-}
 
-.services-title {
-    color: #FFFFFF;
-    margin-bottom: 44px;
-}
 
 
 
@@ -675,43 +728,18 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
         
 } */
 
-/* .row {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-} */
-
-/* .row:not(:last-child) {
-    margin-bottom: 20px;
-} */
 
 
-/* .row::before {
-    content: "";
-    background-color: #9DA4BD;
-    height: 1px;
-    width: 100px;
-    display: inline-block;
-    margin-left: 12px;
-    margin-right: 12px;
-    flex-grow: 1;
-} */
-
-/* .type-of-service {
-    order: -1;
-} */
 
 
-.services-button {
+
+
+
+/* .services-button {
     color: #FFFFFF;
     margin-top: 56px;
-}
-
-
-/* .about {
-    padding-top: 120px;
-    padding-bottom: 120px;
 } */
+
 
 /* /PRICES */
 
