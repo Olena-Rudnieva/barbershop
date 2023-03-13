@@ -686,6 +686,35 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 
 }
 
+@media screen and (min-width: 768px) {
+
+    .services-prices {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .services-title {
+        font-size: 42px;
+        text-align: start;
+    }
+
+    .prices {
+        font-size: 18px;
+        line-height: 1.67;
+        letter-spacing: 0.02em;
+        color: #9DA4BD;
+        background: linear-gradient(180deg, #171A24 0%, rgba(23, 26, 36, 0.2) 100%);
+        padding: 32px 40px;
+
+    }
+
+    
+
+    
+
+    
+}
+
 /* .services-prices {
     padding-top: 110px;
     padding-bottom: 130px;
