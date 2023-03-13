@@ -551,9 +551,14 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     margin-bottom: 40px;
 }
 
-/* .about-flex {
-    display: flex;
-} */
+@media screen and (min-width: 768px) {
+    .about-flex {
+            display: flex;
+            gap: 30px;
+        }
+}
+
+
 
 /* .about-information {
     width: 470px;
