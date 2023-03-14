@@ -657,6 +657,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 
 .services-uppertitle {
     color: rgba(157, 164, 189, 0.6);
+    font-size: 8px;
 }
 
 .services-title {
@@ -666,7 +667,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 }
 
 .prices {
-    font-size: 14px;
+    font-size: 10px;
     line-height: 1.43;
     letter-spacing: 0.02em;
     color: #9DA4BD;
@@ -675,9 +676,9 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
         
 }
 
-/* .left-side {
+.left-side {
     margin-bottom: 20px;
-} */
+}
 
 .row {
     display: flex;
@@ -696,8 +697,8 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     height: 1px;
     /* width: 100px; */
     display: inline-block;
-    margin-left: 12px;
-    margin-right: 12px;
+    margin-left: 4px;
+    margin-right: 4px;
     flex-grow: 1;
 }
 
@@ -709,6 +710,18 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     color: #FFFFFF;
     margin-top: 44px;
 
+}
+
+@media screen and (min-width: 385px) {
+
+    .services-uppertitle {
+        font-size: 11px;
+    }
+
+    .prices {
+        font-size: 14px;
+    }
+    
 }
 
 @media screen and (min-width: 768px) {
@@ -733,6 +746,11 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 
     }
     
+    .row::before {
+        content: "";
+        margin-left: 12px;
+        margin-right: 12px;        
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -781,7 +799,16 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
         
 } */
 
-
+/* .row::before {
+    content: "";
+    background-color: rgba(157, 164, 189, 0.12);
+    height: 1px;
+    width: 100px;
+    display: inline-block;
+    margin-left: 12px;
+    margin-right: 12px;
+    flex-grow: 1;
+} */
 
 
 
