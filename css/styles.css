@@ -215,6 +215,7 @@ body {
             padding-top: 118px;
             padding-left: 40px;
             padding-bottom: 227px;
+            overflow: auto;
         }
     
         .mobile-menu-close-btn {
@@ -231,7 +232,7 @@ body {
     
         .mobile-menu-header-item:not(:last-child) {
             margin-bottom: 24px;
-        }
+        }        
     
         .mobile-menu-header-link {
             font-weight: 600;
@@ -239,6 +240,12 @@ body {
             line-height: 1.39;
             letter-spacing: 0.1em;
             color: #303030;
+            transition: color 250ms linear;
+        }
+
+        .mobile-menu-header-link:hover,
+        .mobile-menu-header-link:focus {
+            color: var(--accent-color);
         }
     
         .mobile-menu-phone {
@@ -254,7 +261,25 @@ body {
         }
     
         .mobile-menu-social-list {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            column-gap: 40px;
+            row-gap: 24px;
             margin-top: 64px;
+            align-items: start;
+            margin-left: 100px;
+            
+        }
+
+        .mobile-menu-social-list::before {
+            position: absolute;
+            top: 10px;
+            left: -100px;
+            content: "";
+            width: 60px;
+            height: 1px;
+            background-color: #303030;
         }
     
         .mobile-menu-social-link {
@@ -459,7 +484,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     }
 
     .hero-list-link:hover,
-    .header-list-link:focus {
+    .hero-list-link:focus {
         color: var(--accent-color);
     }
 
