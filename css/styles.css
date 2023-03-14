@@ -927,10 +927,12 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     }
 
     .features-list {
-        
+        display: flex;
         flex-wrap: wrap;
-        justify-content: start;
-        width: 370px;
+        justify-content: flex-start;
+        width: 370px; 
+        margin-left: 0;
+
     }
 
     .features-list-item {
