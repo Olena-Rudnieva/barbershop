@@ -813,16 +813,14 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 .features-flex {
     display: flex;
     flex-direction: column-reverse;
-    gap: 44px;  
-    
-    
+    gap: 44px;   
 }
 
 .features-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* width: 370px;      */
+    
 }
 
 .features-list-item {
@@ -916,79 +914,49 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     
 }
 
-/* .features {
-    padding-top: 120px;
-    padding-bottom: 120px;
-} */
+@media screen and (min-width: 1200px) {
+    .features {
+            padding-top: 120px;
+            padding-bottom: 120px;
+        }
 
-/* .features-flex {
-    display: flex;
-    padding-left: 70px;
-    gap: 130px;
-} */
+    .features-flex {
+        flex-direction: row;
+        padding-left: 70px;
+        gap: 130px;
+    }
 
-/* .features-list {
-    display: flex;
-    flex-wrap: wrap;
-    width: 370px;     
-} */
+    .features-list {
+        
+        flex-wrap: wrap;
+        justify-content: start;
+        width: 370px;
+    }
 
-/* .features-list-item {
-    width: 170px;
-    height: 133px;
-    background-color: #F7F7F7;
-    padding: 20px 24px;
-} */
+    .features-list-item {
+        width: 170px; 
+        padding: 20px 24px;       
+        
+    }
 
+    .features-list-item:nth-child(odd) {
+        margin-right: 30px;
+    }
 
+    .features-list-item:nth-child(even) {
+        margin-top: 30px;
+    }
 
-/* .features-list-item:nth-child(odd) {
-    margin-right: 30px;
-} */
+    .features-wrap {
+        margin-top: 9px;
+        max-width: 500px;
+    }
 
-/* .features-list-item:nth-child(even) {
-    margin-top: 30px;
-} */
-
-/* .number {
-    font-weight: 700;
-    font-size: 42px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.05em;
-    color: #303030;
-} */
-
-/* .number::after {
-    content: "+";
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.38;
-    text-align: center;
-    vertical-align: top;
-    color: transparent;
-    text-shadow: 0 9px #FF6C00;
-
-} */
-
-/* .number-description {
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 1.36;
-    text-align: center;
-    color: #303030;
-}  */
-
-/* .features-wrap {
-    margin-top: 9px;
-    max-width: 500px;
-} */
-
-/* .features-title {
-    width: 430px;
-} */
-
-
+    .features-title {
+        width: 430px;
+    }  
+ 
+}
 
 /* /FEATURES */
 
