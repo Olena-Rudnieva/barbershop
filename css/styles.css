@@ -675,9 +675,9 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
         
 }
 
-.left-side {
+/* .left-side {
     margin-bottom: 20px;
-}
+} */
 
 .row {
     display: flex;
@@ -732,12 +732,11 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
         padding: 32px 40px;
 
     }
-
     
+}
 
-    
+@media screen and (min-width: 1200px) {
 
-    
 }
 
 /* .services-prices {
