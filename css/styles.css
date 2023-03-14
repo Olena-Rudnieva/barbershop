@@ -1042,6 +1042,22 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     fill: currentColor;
 }
 
+@media screen and (min-width: 768px) {
+    .our-barbers {
+        padding-top: 100px;
+        padding-bottom: 100px; 
+        padding-left: 144px;
+        padding-right: 144px;       
+    }
+
+    .our-barbers-list-item {
+        width: 450px;
+    }
+
+    
+    
+}
+
 /* /OUR-BARBERS */
 
 /* Gallery */
