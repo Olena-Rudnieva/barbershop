@@ -965,8 +965,8 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 /* OUR-BARBERS */
 
 .our-barbers {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 84px;
+    padding-bottom: 84px;
     background-color: #F7F7F7;
 }
 
@@ -974,9 +974,21 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     margin-bottom: 44px;
 }
 
-.our-barbers-list {
+/* .our-barbers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #F7F7F7;
+} */
+
+
+
+/* .our-barbers-list {
     display: flex;
     gap: 30px;
+} */
+
+.our-barbers-list-item:not(:last-child) {
+    margin-bottom: 64px;
 }
 
 .name {   
@@ -1008,8 +1020,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     width: 44px;
     height: 44px;
     background-color: #fff;
-    border-radius: 50%;
-    
+    border-radius: 50%;    
 }
 
 .social-link {
