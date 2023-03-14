@@ -1147,6 +1147,19 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 /* Contacts */
 
 .contacts {
+    padding-top: 84px;
+    padding-bottom: 84px;
+    background-color: #191C26;
+    /* background-image: url(../images/bg-contacts.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: calc(50% - 15px) 100%; */
+
+
+}
+
+
+/* .contacts {
     padding-top: 130px;
     padding-bottom: 120px;
     background-color: #191C26;
@@ -1156,16 +1169,16 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
         background-size: calc(50% - 15px) 100%;
     
     
-}
+} */
 
-.contacts-flex {
+/* .contacts-flex {
     display: flex;
-}
+} */
 
-.left-side-booking {
+/* .left-side-booking {
     width: calc(50% + 15px);
     padding-right: 30px;
-}
+} */
 
 .online-title {
     font-weight: 700;
@@ -1176,20 +1189,20 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     margin-bottom: 44px;
 }
 
-.online-form {
+/* .online-form {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
+} */
 
-.online-field {
+/* .online-field {
     position: relative;
     margin-bottom: 44px;
     
-}
+} */
 
 
-.online-input {
+/* .online-input {
     width: 270px;
     height: 24px;
     border: none;
@@ -1198,9 +1211,9 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     outline: transparent;
     color: #FFFFFF;
     transition: border-color 250ms linear; 
-}
+} */
 
-.online-label {
+/* .online-label {
     position: absolute;
     top: 0;
     left: 0;
@@ -1211,114 +1224,111 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     text-transform: uppercase;
     color: rgba(157, 164, 189, 0.4);
     transition: transform 250ms linear;
-}
+} */
 
-.online-field-item {
+/* .online-field-item {
     width: 100%;
-}
+} */
 
-.online-textarea {
+/* .online-textarea {
     width: 100%;
     height: 76px;
     resize: none;
-}
+} */
 
-.online-input:focus {
+/* .online-input:focus {
     border-color: #FFFFFF;
-}
+} */
 
-.online-input:focus + .online-label {
+/* .online-input:focus + .online-label {
     transform: translateY(-100%);
     color: #9DA4BD;
-}
+} */
 
-.online-input:not(:placeholder-shown)+.online-label {
+/* .online-input:not(:placeholder-shown)+.online-label {
     transform: translateY(-100%);
     color: #9DA4BD;
-}
+} */
 
 
-.right-side-contacts {
+/* .right-side-contacts {
     width: calc(50% - 15px);
     padding-left: 100px; 
            
-}
+} */
 
-.contacts-title {
+/* .contacts-title {
     font-weight: 700;
     font-size: 42px;
     line-height: 1.17;
     letter-spacing: 0.05em;
     color: #FFFFFF;
     margin-bottom: 40px;
-}
+} */
 
-.contacts-list {
+/* .contacts-list {
     margin-bottom: 70px;
-}
+} */
 
-.contacts-list-item:not(:last-child) {
+/* .contacts-list-item:not(:last-child) {
     margin-bottom: 20px;
-}
+} */
 
-.contacts-text {
+/* .contacts-text {
     font-weight: 400;
     font-size: 18px;
     line-height: 1.67;
     letter-spacing: 0.02em;
     color: #9DA4BD;    
-}
+} */
 
-.contacts-list-item {
+/* .contacts-list-item {
     display: flex;
     align-items: start;
     gap: 16px;
-}
+} */
 
-.contacts-list-item::before {
+/* .contacts-list-item::before {
     content: "";
     width: 24px;
     height: 24px;    
     background-position: center;
     
-}
+} */
 
 
 
-.contact-location::before {
+/* .contact-location::before {
     content: "";
     background-image: url(../images/map-pin.svg);
-}
+} */
 
-.contact-phone::before {
+/* .contact-phone::before {
     content: "";
     background-image: url(../images/phone.svg);
-}
+} */
 
-.contact-mail::before {
+/* .contact-mail::before {
     content: "";
     background-image: url(../images/mail.svg);
-}
+} */
 
-.contacts-text-location {
+/* .contacts-text-location {
     font-weight: 700;
     width: 200px;
-}
+} */
 
-
-
-
-.uppertitle-dark {
+/* .uppertitle-dark {
     color: #FFFFFF;
-}
+} */
 
-.working-hours {
+/* .working-hours {
     font-weight: 400;
     font-size: 18px;
     line-height: 1.67;
     letter-spacing: 0.02em;
     color: #9DA4BD;
-}
+} */
 
 /* /Contacts */
 
