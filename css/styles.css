@@ -446,6 +446,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 .hero-description {
     font-size: 16px;
     line-height: 1.63;    
+    color: #9DA4BD;
 }
 
 
@@ -964,6 +965,13 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 
 /* OUR-BARBERS */
 
+@media screen and (max-width: 372px) {
+    .our-barbers-uppertitle {
+        font-size: 8px;
+    }
+    
+}
+
 .our-barbers {
     padding-top: 84px;
     padding-bottom: 84px;
@@ -1035,6 +1043,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
         padding-bottom: 100px; 
         padding-left: 144px;
         padding-right: 144px;       
+        
     }
 
     .our-barbers-list-item {
@@ -1064,10 +1073,6 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     .our-barbers-list-item:not(:last-child) {
         margin-bottom: 0;
     }
-
-
-
-
 }
 /* /OUR-BARBERS */
 
