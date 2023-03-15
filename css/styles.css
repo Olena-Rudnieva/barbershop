@@ -1150,6 +1150,10 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     padding-top: 84px;
     padding-bottom: 84px;
     background-color: #191C26;  
+    background-image: url(../images/contacts/mobile-bg-contacts.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
 }
 
 .contacts-flex {
@@ -1158,7 +1162,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 
 .online-title {
     font-weight: 700;
-    font-size: 42px;
+    font-size: 28px;
     line-height: 1.17;
     letter-spacing: 0.05em;
     color: #FFFFFF;
@@ -1218,6 +1222,103 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 .online-booking-btn {
     margin-bottom: 84px;
 }
+
+.contacts-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 85px;
+    margin-bottom: 40px;
+}
+
+.contacts-list {
+    margin-bottom: 44px;
+}
+
+.contacts-list-item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.contacts-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;    
+}
+
+.contacts-list-item {
+    display: flex;
+    align-items: start;
+    gap: 16px;
+}
+
+.contacts-list-item::before {
+    content: "";
+    width: 24px;
+    height: 24px;    
+    background-position: center;    
+}
+
+.contact-location::before {
+    content: "";
+    background-image: url(../images/map-pin.svg);
+}
+
+.contact-phone::before {
+    content: "";
+    background-image: url(../images/phone.svg);
+}
+
+.contact-mail::before {
+    content: "";
+    background-image: url(../images/mail.svg);
+}
+
+.contacts-text-location {
+    font-weight: 700;    
+}
+
+.uppertitle-dark {
+    color: #FFFFFF;
+}
+
+.working-hours {
+    font-size: 16px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+    text-align: start;
+}
+
+@media screen and (min-width: 390px) {
+    .online-title {
+        font-size: 42px;
+    }
+
+    .contacts-title {
+        font-size: 42px;
+    }
+
+    .contacts-text {
+        font-size: 18px;
+    }
+
+    .working-hours {
+        font-size: 18px;
+    }    
+}
+
+@media screen and (min-width) {
+    .contacts {
+        padding-top: 100px;
+        padding-bottom: 100px;   
+    }
+}
+    
+
 
 /* .contacts {
     padding-top: 130px;
