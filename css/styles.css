@@ -204,7 +204,8 @@ body {
             opacity: 0;
             visibility: hidden;
             pointer-events: none;
-            transition: opacity 300ms linear, visibility 300ms linear;
+            transition: opacity 300ms linear, visibility 300ms linear, transform 300ms linear;
+            transform: translate(100%, 0);
     
         }
     
@@ -212,6 +213,7 @@ body {
             opacity: 1;
             visibility: visible;
             pointer-events: auto;
+            transform: translate(0, 0);
         }
     
         .mobile-menu-container {
@@ -220,6 +222,9 @@ body {
             padding-left: 40px;
             padding-bottom: 227px;
             overflow: auto;
+            
+            
+            
         }
     
         .mobile-menu-close-btn {
