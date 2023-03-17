@@ -186,27 +186,26 @@ body {
         fill: #fff;
     }
 
-        .mobile-menu-open {
-            background-color: #FFFFFF;
-            border: none;
-            padding: 0;
-            line-height: 0;
-        }
+    .mobile-menu-open {
+        background-color: #FFFFFF;
+        border: none;
+        padding: 0;
+        line-height: 0;
+    }
     
-        .mobile-menu {
-            position: fixed;
-            width: 100%;
-            height: 100%;
-            z-index: 1000;
-            background-color: #FFFFFF;
-            top: 0;
-            left: 0;
-            opacity: 0;
-            visibility: hidden;
-            pointer-events: none;
-            transition: opacity 300ms linear, visibility 300ms linear, transform 300ms linear;
-            transform: translate(100%, 0);
-    
+    .mobile-menu {
+        position: fixed;
+        width: 70%;
+        height: 100%;
+        z-index: 1000;
+        background-color: #FFFFFF;
+        top: 0;
+        right: 0;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transition: opacity 300ms linear, visibility 300ms linear, transform 300ms linear;
+        transform: translate(100%, 0);    
         }
     
         .mobile-menu.is-open {
@@ -221,10 +220,7 @@ body {
             padding-top: 118px;
             padding-left: 40px;
             padding-bottom: 227px;
-            overflow: auto;
-            
-            
-            
+            overflow: auto;      
         }
     
         .mobile-menu-close-btn {
@@ -235,9 +231,17 @@ body {
             border: none;
             padding: 0;
             line-height: 0;
+            width: 40px;
+            height: 40px;
+        } 
+
+        .mobile-menu-close-icon {
+            width: 100%;
+            height: 100%;
+            
         }
-    
-    
+        
+        
     
         .mobile-menu-header-item:not(:last-child) {
             margin-bottom: 24px;
@@ -313,6 +317,14 @@ body {
     align-items: center;
 }
 
+@media screen and (min-width: 480px) {
+    .mobile-menu {
+        width: 337px;
+    }
+
+    
+    
+}
 
 
 @media screen and (min-width: 768px) {
@@ -359,7 +371,6 @@ body {
 
     .header-btn {
         margin-left: 40px;
-
     }
     
 }
@@ -1158,6 +1169,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     background-image: url(../images/contacts/mobile-bg-contacts.png);
     background-repeat: no-repeat;
     background-position: bottom;
+    background-size: auto;
     
 }
 
@@ -1234,7 +1246,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     line-height: 1.17;
     letter-spacing: 0.05em;
     color: #FFFFFF;
-    margin-top: 85px;
+    margin-top: 84px;
     margin-bottom: 40px;
 }
 
@@ -1316,11 +1328,58 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     }    
 }
 
-@media screen and (min-width) {
+@media screen and (min-width: 768px) {
     .contacts {
         padding-top: 100px;
-        padding-bottom: 100px;   
+        padding-bottom: 100px; 
+        background-image: url(../images/contacts/tablet-bg-contacts.png);
     }
+      
+    .online-form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .online-input {
+        width: 330px;
+    }
+
+    .online-field-item {
+        width: 100%;
+    }
+
+    .online-textarea {
+        width: 100%;
+    }
+
+    .contacts-flex {
+        text-align: start;
+    }
+
+    .online-booking-btn {
+        margin-bottom: 100px;
+    }
+
+    .contacts-title {
+        margin-top: 100px;
+    }
+
+    .contacts-info {
+        display: flex;
+        gap: 30px;
+    }
+
+    .contacts-list {
+        width: 330px;
+        margin-bottom: 0;
+    }
+
+    .contacts-text-location {
+        width: 200px;
+    }
+
+  
 }
     
 
@@ -1338,8 +1397,9 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 } */
 
 /* .contacts-flex {
-    display: flex;
-} */
+        display: flex;
+    } */
+
 
 /* .left-side-booking {
     width: calc(50% + 15px);
@@ -1348,11 +1408,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 
 
 
-/* .online-form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-} */
+
 
 /* .online-field {
     position: relative;
@@ -1361,16 +1417,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 } */
 
 
-/* .online-input {
-    width: 270px;
-    height: 24px;
-    border: none;
-    border-bottom: 1px solid rgba(157, 164, 189, 0.4);
-    background-color: transparent;
-    outline: transparent;
-    color: #FFFFFF;
-    transition: border-color 250ms linear; 
-} */
+
 
 /* .online-label {
     position: absolute;
@@ -1385,15 +1432,9 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     transition: transform 250ms linear;
 } */
 
-/* .online-field-item {
-    width: 100%;
-} */
 
-/* .online-textarea {
-    width: 100%;
-    height: 76px;
-    resize: none;
-} */
+
+
 
 /* .online-input:focus {
     border-color: #FFFFFF;
