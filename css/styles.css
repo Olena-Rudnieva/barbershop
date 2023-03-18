@@ -1437,8 +1437,8 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 /* Footer */
 
 .footer {
-    padding-top: 56px;
-    padding-bottom: 56px;
+    padding-top: 44px;
+    padding-bottom: 44px;
 }
 
 .footer-container {
@@ -1458,9 +1458,15 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 
 .list-footer {
     transform: rotate(0deg);
-    padding-bottom: 0;
-    
-    
+    padding-bottom: 0;      
+}
+
+
+@media screen and (min-width: 768px) {
+    .footer {
+        padding-top: 56px;
+        padding-bottom: 56px;
+    }
     
 }
 
